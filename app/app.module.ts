@@ -1,15 +1,15 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RoomComponent } from './components/room/room.component';
+import { AdminPageComponent } from './components/adminPage/adminPage.component';
 import { AppComponent }  from './app.component';
+import { RoomComponent } from './components/room/room.component';
+import { LoginComponent } from './components/login/login.component';
+import { routing } from './app.routes'; // ROUTING HERE!
 
-//import {LoginComponent} from './components/login/login.component';
-
-//import {Routes,ROUTER_DIRECTIVES} from '@angular/router';
 
 @NgModule({
-  imports: [ BrowserModule ],
-  declarations: [ AppComponent,RoomComponent],
+  imports: [ BrowserModule, routing ],
+  declarations: [ AppComponent,RoomComponent,LoginComponent,AdminPageComponent],
   bootstrap: [ AppComponent ]
 })
 
