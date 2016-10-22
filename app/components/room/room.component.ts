@@ -73,19 +73,6 @@ export class RoomComponent {
 	 		this.temperature=this.defaultTemp;
 	 	}
 
-	 	/*if(this.temperature>this.currentTemperature)
-	 	{
-	 		this.operation="Ogrzewanie...";
-	 	}
-	 	else if(this.temperature>this.currentTemperature)
-	 	{
-	 		this.operation="Chłodzenie...";
-	 	}
-	 	else if(this.temperature==this.currentTemperature)
-	 	{
-	 		this.operation="";
-	 	}*/
-
 
   	 constructor() { }
 
